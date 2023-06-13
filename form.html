@@ -1,0 +1,205 @@
+<html>
+    <head>
+        <title>FORM</title>
+    </head>
+    <body style="background-color:bisque;" >
+        <!-- <form>
+            <label for="password">enter</label>
+            <input type="password" id="password"placeholder="Enter password">
+            <br><br>
+            <label for="name">Enter your name</label>
+            <input type="text" id="name">
+            <br><br>
+            <label for="email">Enter currect emailid</label>
+            <input type="email" id="email" placeholder="Enter email">
+            <br><br>
+            <label for="number">Enter phone number</label>
+            <input type="number" placeholder="Enter Number" min="0" max="20" required>
+            <br><br>-
+            <label for="date">Enter DOB</label>
+            <input type="date" id="date" placeholder="Enter date" min="2015-01-01" max="2023-05-01">
+            <br><br>
+            <label for="file">enter idcard</label>
+            <input type="file" multiple>
+            <br><br>
+            <input type="url">
+            <br><br>
+            <input type="image" src=https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg height="55">
+            <input type="submit" value="Login" > 
+            <br><br>
+            
+            
+        </form> -->
+
+        <!-- <form>
+            
+            <fieldset>
+                <legend><h1 style="color:crimson;">Personal Details</h1></legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" readonly value="Vanshika">
+            <br><br>
+            <label for="email">Email id:</label>
+            <input type="email" id="email" required>
+            <br><br>
+            Registration time:<br>
+            <input type="datetime-local">
+            <br><br>
+            <label for="date">DOB</label>
+            <input type="date" id="date" min="2000-12-31" max="2013-12-31" required>
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+            <br><br>
+            <label for="number">AGE</label>
+            <input type="number" id="number" required>
+            <br><br>
+            <label for="contact">Contact</label>
+            <input type="tel" id="contact" pattern="[8-9]{3}-[0-9]{1}">
+            <br><br>
+            <label for="url">Enter Linkdin Profile</label>
+            <input type="url" id="url" required>
+            <br><br>
+            <label for="address">Address</label>
+            <textarea></textarea>
+            <br><br>
+            <p>Select Gender:</p>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <br><br>
+        </fieldset>
+                
+            <fieldset>
+                <legend><h1 style="color:crimson;">Education Details</h1></legend>
+            Branch:<br>
+            <input type="checkbox" id="Cse">
+            <label for="cse">Computer Science</label><br>
+            <input type="checkbox" id="It">
+            <label for="It">IT</label><br>
+            <input type="checkbox" id="AIML">
+            <label for="AIML">AIML</label><br>
+            <input type="checkbox" id="ME">
+            <label for="ME">Mechanical</label>
+            <br><br>
+            Year:<br>
+            <select required>
+                <option>--Select--</option>
+                <option>First</option>
+                <option>Second</option>
+                <option>Third</option>
+                <option disabled>Fourth</option>
+            </select >
+            <br><br>
+            <label for="file">Attach Resume</label>
+            <input type="file" id="file" multiple required>
+            <br><br>
+            <input type="image" src="/images/sbr.webp" height="55">
+            <br>
+            <input type="submit" value="reset">
+        </fieldset>
+        </form> -->
+        <form>
+            <fieldset>
+                <legend><h1 style="color:crimson;">Personal Details</h1></legend>
+                <label for="collegename">Enter Your college name:</label>
+                <input type="text" id="collegename" readonly value="Government Women Engineering College">      
+                <br><br>
+                <label for="firstname">Enter first name:</label>
+                <input type="text" id="firstname" required>
+                <br><br>
+                <label for="lastname">Enter last name:</label>
+                <input type="text" id="lastname" required>
+                <br><br>
+                <label for="email">Enter currect email id:</label>
+                <input type="email" id="email" required>
+                <br><br>
+                Registration time:<br>
+                <input type="datetime-local">
+                <br><br>
+                <label for="date">Date Of Birth:</label>
+                <input type="date" id="date" required min="2000-12-31" max="2023-12-31">
+                <br><br>
+                <label for="password">Enter password:</label>
+                <input type="password" id="password" required>
+                <br><br>
+                <label for="number">AGE</label>
+                <input type="number" id="number" required>
+                <br><br>
+                <label for="contact">Contact</label>
+                <input type="tel" id="contact" required pattern="[8-9]{3}-[0-9]{7}"placeholder="[8-9]{3}-[0-9]{7}" >
+                <br><br>
+                <label for="url">Enter Linkdin Profile</label>
+                <input type="url" id="url" required>
+                <br><br>
+                <label for="address">Enter permanent address</label>
+                <textarea rows="3" cols="5"></textarea>
+                <br><br>
+                State:
+                <input list="state">
+                <datalist id="state">
+                    <option value="Andhra Pradesh"></option>
+                    <option value="Arunachal Pradesh"></option>
+                    <option value="Bihar"></option>
+                    <option value="Chhattisgarh"></option>
+                    <option value="Goa"></option>
+                    <option value="Karnataka"></option>
+                    <option value="Meghalaya"></option>
+                    <option value="Punjab"></option>
+                    <option value="Rajasthan"></option>
+                    <option value="Tamil Nadu"></option>
+                    <option value="Uttar Pradesh"></option>
+                    <option value="Delhi"></option>
+
+                </datalist>
+                <br><br>
+                Gender:<br>
+                <input type="radio"  id="male" name="Gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="Gender">
+                <label for="female">Female</label>
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend><h1 style="color:crimson;">Education Details</h1> </legend>
+                <label for="rollno">Enter university Roll no.:</label>
+                <input type="text" id="rollno" maxlength="10">
+                <br><br>
+                Domain:<br>
+                <input type="checkbox" id="FS">
+                <label for="FS">Full Stack</label><br>
+                <input type="checkbox" id="DS">
+                <label for="DS">Data Science</label><br>
+                <input type="checkbox" id="IOT">
+                <label for="IOT">IOT</label><br>
+                <input type="checkbox" id="CS">
+                <label for="CS">Cyber security</label>
+                <br><br>
+                Branch:<br>
+                <select required>
+                    <option>--Select--</option>
+                    <option>Computer Science</option>
+                    <option>AIML</option>
+                    <option>IT</option>
+                    <option>EE</option>
+                    <option>EEE</option>
+                </select>
+                <br><br>
+                Year:<br>
+                <select required>
+                    <option>--Select--</option>
+                    <option>First</option>
+                    <option>Second</option>
+                    <option>Third</option>
+                    <option disabled>Fourth</option>
+                </select>
+                <br><br>
+                <label for="file">Attach Resume</label>
+                <input type="file" id="file" multiple>
+                <br><br>
+                <input type="submit" value="RESET"><br>
+                <input type="image" src="/images/sbr.webp" height="55">
+            </fieldset>
+        </form>
+    </body>
+</html>
